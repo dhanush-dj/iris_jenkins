@@ -18,6 +18,6 @@ COPY . /app
 #CMD streamlit run /app/server.py 
 CMD python /app/model.py 
 #&& python streamlit run /app/server.py
-
+CMD streamlit run server.py
 
  
